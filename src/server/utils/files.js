@@ -2,7 +2,7 @@ const path = require("node:path");
 const fs = require('fs')
 
 function getRoot() {
-  return path.dirname(path.dirname(path.dirname(__filename)));
+  return path.dirname(path.dirname(path.dirname(path.dirname(__filename))));
 }
 
 function getPath(_folder_path) {
